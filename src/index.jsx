@@ -8,6 +8,7 @@ import routes from 'routes';
 import { createStore } from 'redux';
 import musicReducer from 'reducers';
 import { Provider } from 'react-redux';
+import '../sass/music.scss';
 
 const root = document.getElementById('app');
 const history = useRouterHistory(createHistory)({ basename: process.env.PUBLIC_PATH });

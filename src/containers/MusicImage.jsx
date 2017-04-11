@@ -7,7 +7,7 @@ const MusicImage = (props) => {
   }
   return (
     <div>
-      <img alt="musicimage" src={props.data.data.image} className="imagediv" />;
+      <img alt="musicimage" src={props.data.data.image} className="imagediv" />
     </div>
   );
 };

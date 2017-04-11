@@ -4,7 +4,7 @@ import Controls from 'containers/Controls';
 import Title from 'containers';
 
 const MusicPlayer = () => (
-  <div>
+  <div className="outerdiv">
     <Title />
     <MusicImage />
     <Controls />

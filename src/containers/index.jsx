@@ -7,7 +7,7 @@ const Title = (props) => {
   }
   return (
     <div>
-      <h3>{props.data.data.title}</h3>
+      <div className='title'>{props.data.data.title}</div>
     </div>
   );
 };
